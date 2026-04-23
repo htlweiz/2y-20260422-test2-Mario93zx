@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
    for (int i = 0; i = number; i = i +1)
    printf("%d ", i);
    }else{
-   for (int i = 0; i = number; i -= -1)
+   for (int i = 0; i = number; i = -1)
    printf ("%d" , i);
    }
 }
